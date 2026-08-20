@@ -1,0 +1,33 @@
+body {
+    background-color: rgba(227, 253, 253, 0.692);
+    color: rgb(0, 0, 0);
+    font-family: "Barlow Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: beige;
+    color: black;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+     max-width: 90%;
+}
+
+img {
+    max-width: 70%;
+}
