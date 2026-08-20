@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Deadliest mountains</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="Cenario0.jpeg" alt="Foto de uma Montanha">
+            <p>Um dia desses, você se sentiu inspirado e decediu subir uma montanha alta e perigosa com seu amigo, em busca de uma conquista arriscada.</p>
+            <button class="btn-proximo" data-proximo="1">Annapurna I</button>
+            <button class="btn-proximo" data-proximo="2">K2</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="Cenario1.webp" alt="foto da Annapurna I">
+            <p>Você e seu amigo decidiram subir a Annapurna I, mesmo com o concentimento que ela e a montanha mais perigosa do mundo.</p>  
+            <button class="btn-proximo" data-proximo="3">Seguir em frente e subirla</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar atras e ir para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="Cenario2.jpeg" alt="foto da K2">
+            <p>Vocês decediram subir a K2, mesmo com o concentimento que ela e a segunda maior montanha do mundo e segunda mais perigosa.</p>
+            <button class="btn-proximo" data-proximo="5">Seguir em frente e tentar subirla</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-3"> 
+            <img src="Cenario3.jpeg" alt="Foto de um caminho estreito">
+         <p>Vocês decediram seguir em frente e ariscar suas vidas e vocês se deparam com um caminho estreito e perigoso que um pequeno erro leva a morte</p>  
+         <button class="btn-proximo" data-proximo="6">tentar passar pelo caminho</button>
+         <button class="btn-proximo" data-proximo="7">procurar outro caminho para vocês seguirem</button>
+     </div>
+     <div class="passo" id="passo-4">
+        <p>Vocês desistiram e voltaram para casa, desistindo de uma gloria</p>
+        <button class="btn-proximo" data-proximo="0">jogar denovo</button>
+    </div>
+    <div class="passo" id="passo-5">
+        <p>Vocês comecaram a escalar a K2 e se deparam com uma cordilheira de colinas e com buracos que levam a morte</p>
+        <button class="btn-proximo" data-proximo="8">Tentar cruzá-la com todo cuidado possivel</button>
+        <button class="btn-proximo" data-proximo="9">Contornar a cordilheira procurando um caminho mais seguro</button>
+    </div>
+    <div class="passo" id="passo-6">
+        <p>Seu amigo desliza e cai, por sorte ele estava amarrado na corda, mas a trava de segurança foi mal colocada</p>
+        <button class="btn-proximo" data-proximo="10">segurar a corda do seu amigo</button>
+        <button class="btn-proximo" data-proximo="11">arrumar a trava de segurança dele e puxa-lo com calma</button>
+    </div>
+    <div class="passo" id="passo-7">
+        <p>vocês encontram um caminho mais seguro, mas os ventos da montanha está muito forte criando uma tempestade de neve</p>
+        <button class="btn-proximo" data-proximo="12">Seguir em frente</button>
+        <button class="btn-proximo" data-proximo="13">Voltar para o caminho perigoso</button>
+    </div>
+    <div class="passo" id="passo-8">
+        <p>vocês cruzaram a colina, mas agora vocês se deparam com uma escalada brutal e perigosa até o proximo acampamento, mas um alerta de tempestade aparece e vocês tem pouco tempo</p>
+        <button class="btn-proximo" data-proximo="14">Seguir em frente até o proximo acampamento</button>
+        <button class="btn-proximo" data-proximo="15">procurar um lugar seguro para se esconder da tempestade</button>
+    </div>
+    <div class="passo" id="passo-9">
+        <p>vocês contornam a cordilheira e passam com segurança, mas se deparam com um dezlizamento de pedra e vocês tem pouco tempo para se esconder</p>
+        <button class="btn-proximo" data-proximo="16">voltar para as cordilheiras para se esconder das pedras</button>
+        <button class="btn-proximo" data-proximo="17">seguir em frente e tentar se esquivar das pedras</button>
+    </div>
+    <div class="passo" id="passo-10">
+        <p>Você segura a corda do seu amigo com todas as suas forças, mas você cometeu um erro grave e esqueceu de fixar a trava de segurança e acaba caindo com ele</p>
+        <button class="btn-proximo" data-proximo="18">Proximo</button>
+    </div>
+    <div class="passo" id="passo-11">
+        <p>Você fixa a trava e começa a puxar ele com segurança, mas um equipamento importante dele acabou caindo e está na beira de um penhasco logo abaixo de vocês</p>
+        <button class="btn-proximo" data-proximo="19">descer e pegar o equipamento</button>
+        <button class="btn-proximo" data-proximo="20">seguir em frente na jornada</button>
+    </div>
+    <div class="passo" id="passo-12">
+        <p>Vocês decediram seguir em frente ariscando passar pela tempestade, mas vocês esqueceram de checar o risco de avalanche e acabam se deparando com uma avalanche chegando pelo o som, e vocês tem pouco tempo para encontrar um lugar para se esconder ou correr</p>
+        <button class="btn-proximo" data-proximo="21">correr da avalanche</button>
+        <button class="btn-proximo" data-proximo="22">se esconder em um monte de pedras  proximo</button>
+    </div>
+    </div>
+    <div class="passo" id="passo-13">
+        <p>Vocês decediram voltar para o caminho perigoso</p>
+        <button class="btn-proximo" data-proximo="23">cruzar o caminho</button>
+        <button class="btn-proximo" data-proximo="7">voltar onde estava a tempestade</button>
+    </div>
+    <div class="passo" id="passo-14">
+        <img src="Cenario4.jpeg" alt="foto do ultimo acampamento">
+        <p>Vocês conseguiram cruzar a tempestade e chegam no ultimo acampamento da K2</p>
+        <button class="btn-proximo" data-proximo="24">seguir em frente</button>
+    </div>
+    <div class="passo" id="passo-15">
+        <p>Pessima ideia, vocês acabaram mortos pelo frio de tanto esperar a tempestade acabar</p>
+        <button class="btn-proximo" data-proximo="0">jogar de novo</button>
+    </div>
+    <div class="passo" id="passo-16">
+        <p>Vocês decediram voltar para as cordilheiras e se salvaram</p>
+        <button class="btn-proximo" data-proximo="8">cruzar as cordilheiras</button> 
+     </div>
+    <div class="passo" id="passo-17">
+         <p>Pessima ideia, vocês acabaram mortos pelas pedras tentando desviar-las</p>
+        <button class="btn-proximo" data-proximo="0">jogar de novo</button>
+    </div>
+    <div class="passo" id="passo-18">
+        <p>Por sorte, vocês acabaram na ponta de um penhasco</p>
+        <button class="btn-proximo" data-proximo="25">continuar subindo a montanha</button>
+        <button class="btn-proximo" data-proximo="26">voltar para o ultimo acampamento</button>
+    </div>
+    <div class="passo" id="passo-19">
+        <p>Você decediu pegar o equipamento do seu amigo e voltou para cima com sucesso</p>
+        <button class="btn-proximo" data-proximo="27">continuar</button>
+    </div>
+    <div class="passo" id="passo-20">
+        <p>vocês decediram seguir sem o equipamento, mas seu acabou cometendo um erro e ele caiu e acabou com ferimentos graves</p>
+        <button class="btn-proximo" data-proximo="28">voltar para o ultimo acampamento</button>
+    </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
